@@ -70,7 +70,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("<h1 style='text-align: center;'>🐔 Fod Kazhicho san</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>🐔 Chest Piece</h1>", unsafe_allow_html=True)
 
 # Input
 st.text_input("Enter Name", key="name_input", placeholder="Tap and type a name")
@@ -111,4 +111,5 @@ if st.session_state.winner:
         st.session_state.players = []
         st.session_state.winner = None
         st.rerun()
+
 
